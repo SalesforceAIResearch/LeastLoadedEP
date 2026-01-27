@@ -1,6 +1,6 @@
 # Least-Loaded Expert Parallelism (LLEP)
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/placeholder)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.17111)
 [![Interactive Demo](https://img.shields.io/badge/DEMO-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://huggingface.co/spaces/Salesforce/LeastLoadedEP)
 [![PDF](https://img.shields.io/badge/PDF-brightgreen?style=for-the-badge&logoColor=white)](./llep_paper.pdf)
 
@@ -48,11 +48,13 @@ python -m torch.distributed.run --nproc_per_node=8 test_llep.py \
 
 ```bibtex
 @misc{llep,
-  title={Least-Loaded Expert Parallelism: Load Balancing An Imbalanced Mixture-of-Experts},
+  title={Least-Loaded Expert Parallelism: Load Balancing An Imbalanced Mixture-of-Experts}, 
   author={Xuan-Phi Nguyen and Shrey Pandit and Austin Xu and Caiming Xiong and Shafiq Joty},
   year={2026},
-  primaryClass={cs.AI},
-  url={}, 
+  eprint={2601.17111},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2601.17111}, 
 }
 ```
 
